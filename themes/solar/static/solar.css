@@ -1,0 +1,420 @@
+/* solar.css
+ * Modified from sphinxdoc.css of the sphinxdoc theme.
+*/
+
+@import url("basic.css");
+
+/* -- local fonts ----------------------------------------------------------- */
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/OpenSans-Regular.eot");
+    src: url("font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+         url("font/OpenSans-Regular.woff") format("woff"),
+         url("font/OpenSans-Regular.ttf") format("truetype"),
+         url("font/OpenSans-Regular.svg#OpenSansRegular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/OpenSans-Bold.eot");
+    src: url("font/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+         url("font/OpenSans-Bold.woff") format("woff"),
+         url("font/OpenSans-Bold.ttf") format("truetype"),
+         url("font/OpenSans-Bold.svg#OpenSansBold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/OpenSans-Italic.eot");
+    src: url("font/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+         url("font/OpenSans-Italic.woff") format("woff"),
+         url("font/OpenSans-Italic.ttf") format("truetype"),
+         url("font/OpenSans-Italic.svg#OpenSansItalic") format("svg");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/OpenSans-Light.eot");
+    src: url("font/OpenSans-Light.eot?#iefix") format("embedded-opentype"),
+         url("font/OpenSans-Light.woff") format("woff"),
+         url("font/OpenSans-Light.ttf") format("truetype"),
+         url("font/OpenSans-Light.svg#OpenSansLight") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inconsolata";
+    src: url("font/Inconsolata-webfont.eot");
+    src: url("font/Inconsolata-webfont.eot?#iefix") format("embedded-opentype"),
+         url("font/Inconsolata-webfont.woff") format("woff"),
+         url("font/Inconsolata-webfont.ttf") format("truetype"),
+         url("font/Inconsolata-webfont.svg#InconsolataMedium") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* -- page layout ----------------------------------------------------------- */
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+    padding: 0;
+    margin: 0 auto 80px;
+    min-width: 740px;
+    max-width: 1170px;
+    background-color: #fcfcfc;
+    background-image: url("https://beta.bitdeli.com/assets/img/subtle_dot_@2X.png");
+    background-repeat: repeat;
+    background-size: 3px 3px;
+    background-position: 2px 2px;
+}
+
+div.document {
+    background-color: #fafafa;
+    text-align: left;
+    background-repeat: repeat-x;
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+div.bodywrapper {
+    margin: 0 240px 0 0;
+    border-right: 1px solid #ddd;
+}
+
+div.body {
+    background-color: white;
+    margin: 0;
+    padding: 0.5em 30px 30px 30px;
+}
+
+div.related {
+    font-size: 1em;
+    background: #55224b;
+    color: #BBA7AF;
+    padding: 5px 0px;
+    z-index: 200;
+}
+
+div.related a.logo {
+    display: inline-block;
+    height: 27px;
+    width: 65px;
+    text-indent: -9999em;
+    background-image: url("https://beta.bitdeli.com/assets/img/bitdeli_header_logo_white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65px;
+    padding: 0 10px;
+}
+
+div.related ul {
+    height: 30px;
+    margin: 2px;
+    padding: 0 0 0 15px;
+}
+
+div.related ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.related ul li.right {
+    float: right;
+    margin-right: 5px;
+}
+
+div.related ul li a {
+    margin: 0;
+    padding: 2px 5px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #BBA7AF;
+}
+
+div.related ul li a:hover {
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+div.sphinxsidebarwrapper {
+    padding: 0;
+}
+
+div.sphinxsidebar {
+    margin: 0;
+    padding: 0 15px 15px 0;
+    width: 210px;
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    margin: 1.5em 0 0.5em 0;
+    font-size: 1em;
+    padding: 0.4em 0.7em;
+    background-color: #eaeaea;
+    font-weight: 400;
+}
+
+div.sphinxsidebar h3 a {
+    color: #2E3436;
+}
+
+div.sphinxsidebar ul {
+    padding-left: 1.5em;
+    margin-top: 7px;
+    padding: 0;
+    color: #586e75;
+}
+
+div.sphinxsidebar ul ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+div.sphinxsidebar ul li {
+    margin-bottom: 5px;
+}
+
+div.sphinxsidebar input {
+    border: 1px solid #ddd;
+}
+
+div.footer {
+    color: #888;
+    padding: 8px 15px 8px 0;
+    clear: both;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+div.footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+/* -- body styles ----------------------------------------------------------- */
+
+p {
+    margin: 0.8em 0 0.5em 0;
+}
+
+div.body a, div.sphinxsidebarwrapper a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+div.body a:hover, div.sphinxsidebarwrapper a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.7em 0 0.3em 0;
+    line-height: 1.2em;
+    color: #222;
+}
+
+h2 {
+    margin: 1.6em 0 0.2em 0;
+    padding: 0 0 10px 0;
+    color: #222;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    margin: 1.5em 0 -0.3em 0;
+    padding-bottom: 5px;
+}
+
+h3, h4, h5, h6 {
+    color: #222;
+	border-bottom: 1px dotted #eee;
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
+    color: #657B83!important;
+}
+
+h1 a.anchor, h2 a.anchor, h3 a.anchor, h4 a.anchor, h5 a.anchor, h6 a.anchor {
+    display: none;
+    margin: 0 0 0 0.3em;
+    padding: 0 0.2em 0 0.2em;
+    color: #aaa!important;
+}
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor,
+h5:hover a.anchor, h6:hover a.anchor {
+    display: inline;
+}
+
+h1 a.anchor:hover, h2 a.anchor:hover, h3 a.anchor:hover, h4 a.anchor:hover,
+h5 a.anchor:hover, h6 a.anchor:hover {
+    color: #777;
+    background-color: #eee;
+}
+
+a.headerlink {
+    color: #c60f0f!important;
+    font-size: 1em;
+    margin-left: 6px;
+    padding: 0 4px 0 4px;
+    text-decoration: none!important;
+}
+
+a.headerlink:hover {
+    background-color: #ccc;
+    color: white!important;
+}
+
+
+pre, cite, code, tt {
+    font-family: Monaco, Menlo, Consolas, "Ubuntu Mono", "Droid Sans Mono", Inconsolata, "Courier New", monospace;
+}
+
+cite, code, tt {
+	font-size: 0.9em;
+    letter-spacing: 0.01em;
+    background-color: #eeeff2;
+    font-style: normal;
+}
+
+hr {
+    border: 1px solid #eee;
+    margin: 2em;
+}
+
+.highlight {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+pre {
+    font-style: normal;
+	font-size: 0.9em;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.7em;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+pre a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+td.linenos pre {
+    padding: 0.5em 0;
+}
+
+div.quotebar {
+    background-color: #f8f8f8;
+    max-width: 250px;
+    float: right;
+    padding: 2px 7px;
+    border: 1px solid #ccc;
+}
+
+div.topic {
+    background-color: #f8f8f8;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 -0.5em 0 -0.5em;
+}
+
+table td, table th {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+div.admonition {
+    font-size: 0.9em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #eee;
+    background-color: #f7f7f7;
+    padding: 0;
+    -moz-box-shadow: 0px 8px 6px -8px #93a1a1;
+    -webkit-box-shadow: 0px 8px 6px -8px #93a1a1;
+    box-shadow: 0px 8px 6px -8px #93a1a1;
+}
+
+div.admonition p {
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0.2em;
+}
+
+div.admonition pre {
+    margin: 0.4em 1em 0.4em 1em;
+}
+
+div.admonition p.admonition-title
+{
+    margin: 0;
+    padding: 0.2em 0 0.2em 0.6em;
+    color: white;
+    border-bottom: 1px solid #eee8d5;
+    font-weight: bold;
+    background-color: #268bd2;
+}
+
+div.warning p.admonition-title,
+div.important p.admonition-title {
+    background-color: #cb4b16;
+}
+
+div.hint p.admonition-title,
+div.tip p.admonition-title {
+    background-color: #859900;
+}
+
+div.caution p.admonition-title,
+div.attention p.admonition-title,
+div.danger p.admonition-title,
+div.error p.admonition-title {
+    background-color: #dc322f;
+}
+
+div.admonition ul, div.admonition ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}
+
+div.versioninfo {
+    margin: 1em 0 0 0;
+    border: 1px solid #eee;
+    background-color: #DDEAF0;
+    padding: 8px;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+
+div.viewcode-block:target {
+    background-color: #f4debf;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
