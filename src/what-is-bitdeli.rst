@@ -27,6 +27,8 @@ Since each card is powered by a full-fledged Python script, they can perform arb
 
 If the newly added card doesn't quite fit to your needs, or you don't like the colors, click **Edit**. This opens the in-browser **Card Editor** that allows you to customize and test the card with your actual data. Using the editor doesn't require any special expertise besides the basics of Python.
 
+.. _sections:
+
 All analytics in one place
 --------------------------
 

@@ -48,7 +48,7 @@ A random sample is generated when you open the editor. This means that the input
 Note that when you start editing a card for the first time, the initial results from draft runs may not be based on an unbiased sample. The sample will become unbiased after a few minutes automatically.
 
 Due to sampling results produced by a draft run do not always accurately represent the final results shown on the card. Only after you have committed your changes, the code is run for all the profiles.
-Sampling is meant to aid development, not to be used as a tool for rigorious analytics as such.
+Sampling is meant to aid development, not to be used as a tool for rigorous analytics as such.
 
 
 

@@ -6,8 +6,8 @@
 Bitdeli Documentation
 =====================
 
-Introduction to Bitdeli
------------------------
+Introduction
+------------
 
 .. toctree::
    :maxdepth: 1

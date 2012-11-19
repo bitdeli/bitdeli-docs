@@ -21,7 +21,7 @@ the results as a set of **widgets**.
 The card script is automatically executed every time the profile database changes, so the card
 is always up to date.
 
-That's it. You are ready to start hacking!
+That's it. Now you can head to the :ref:`editor` and start hacking!
 
 Bitdeli in 5 minutes
 --------------------
@@ -51,6 +51,8 @@ Regardless of the source, the raw events are stored in
 `Amazon Simple Storage Service <http://aws.amazon.com/s3/>`_ from where they are
 read for further processing. The raw events are never modified.
 
+.. _profile-script:
+
 Profile Script
 ''''''''''''''
 
@@ -69,6 +71,8 @@ All available profile scripts are documented in detail in :ref:`profile-scripts`
 that although currently you can't define custom profile scripts, we are very open to
 suggestions and pull requests. The Git repositories for profile scripts are
 prefixed with `profile-` at our `GitHub page <https://github.com/bitdeli>`_.
+
+.. _profiles:
 
 Profiles
 ''''''''
@@ -89,11 +93,14 @@ Note that a profile may contain fields whose name start with a non-alphanumeric 
 
 You can view and browse the profiles for a card in the card editor by clicking the Profiles tab.
 
+.. _card-script:
+
 Card Script
 '''''''''''
 
 The card script is where the magic happens. A card script is a standard, unrestricted Python
-program which you can create either from scratch or based on one of our templates.
+program which you can create either from scratch or based on one of our templates using our
+:ref:`editor`.
 
 The card script accesses the profiles through the :ref:`bitdeli-py` Python module. It can
 aggregate, filter or process the profiles in any way - most typically it computes various
