@@ -1,0 +1,5 @@
+
+.. _github:
+
+GitHub Integration
+==================

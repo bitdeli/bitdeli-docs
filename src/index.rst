@@ -15,19 +15,21 @@ Introduction to Bitdeli
    why-bitdeli
    what-is-bitdeli
 
-Developers
-----------
+Getting Started
+---------------
 
 .. toctree::
    :maxdepth: 1
 
    overview
+   editor
+   github
 
-- description / manifesto: link to we-use-that
+API Reference
+-------------
+
 - python modules: chain vs. non-chain
 - push api
-- github
-- comput. model
 - profile scripts
 
 Support
