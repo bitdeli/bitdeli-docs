@@ -4,7 +4,7 @@
 GitHub Integration
 ==================
 
-If you use only the ready-made card scripts and make only minor modifications for them, you don't need to worry about Git(Hub) - Bitdeli works perfectly fine without them. Otherwise, you should read on.
+If you use only the ready-made card scripts and make only minor modifications, you don't need to worry about Git(Hub) - Bitdeli works perfectly fine without them. Otherwise, you should read on.
 
 We at Bitdeli love `Git <http://git-scm.com>`_ and `GitHub <https://github.com>`_. Bitdeli and Git is a match made in heaven: You can *collaborate*, *share* and *experiment* with analytics using the most powerful and popular distributed version control system, Git. Anyone in your team can immediately see and test a new version of analytics with live production data, thanks to Bitdeli. Moreover, your analytics becomes fully *auditable*, as any metrics can be traced back to their source.
 
@@ -32,7 +32,9 @@ Now the card is fully connected to the GitHub repository. Every time the card is
 Repository Structure
 --------------------
 
-The Git integration is based on a few simple conventions. If you want to use a GitHub repository with Bitdeli, the repository needs to follow these conventions:
+The Git integration is based on a few simple conventions. If you want to use a GitHub repository with Bitdeli, the repository needs to follow these conventions.
+
+Note that `all card scripts provided by Bitdeli <https://github.com/bitdeli>`_ follow these conventions and thus serve as great examples or starting points for your own repositories.
 
 Name & Description
 ''''''''''''''''''''
