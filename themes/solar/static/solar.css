@@ -93,7 +93,7 @@ div.bodywrapper {
 div.body {
     background-color: white;
     margin: 0;
-    padding: 0.5em 30px 30px 30px;
+    padding: 0.5em 40px 60px 40px;
 }
 
 div.related {
@@ -119,7 +119,7 @@ div.related a.logo {
 div.related ul {
     height: 30px;
     margin: 2px;
-    padding: 0 0 0 15px;
+    padding: 0 0 0 10px;
 }
 
 div.related ul li {
@@ -163,10 +163,9 @@ div.sphinxsidebar {
 }
 
 div.sphinxsidebar h3, div.sphinxsidebar h4 {
-    margin: 1.5em 0 0.5em 0;
+    margin: 2em 0 0.4em 0;
     font-size: 1em;
-    padding: 0.4em 0.7em;
-    background-color: #eaeaea;
+    padding: 0 0 0.4em;
     font-weight: 400;
 }
 
@@ -191,7 +190,7 @@ div.sphinxsidebar ul li {
 }
 
 div.sphinxsidebar input {
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
 }
 
 div.footer {
@@ -209,8 +208,35 @@ div.footer a {
 
 /* -- body styles ----------------------------------------------------------- */
 
-p {
-    margin: 0.8em 0 0.5em 0;
+div.body div.section {
+    max-width: 750px;
+}
+
+p, div.body ul li, div.body ol li {
+    margin: 0.5em 0 0.8em;
+}
+
+div.body ul, div.body ol {
+    padding-left: 30px;
+}
+
+div.body ul {
+    list-style-type: none;
+}
+
+div.body ul li {
+    position: relative;
+}
+
+div.body ul li:before {
+    content: "\2022";
+    position: absolute;
+    left: -15px;
+    color: #777;
+}
+
+div.toctree-wrapper ul li, div.toctree-wrapper ol li {
+    margin: 0 0 0.3em;
 }
 
 div.body a, div.sphinxsidebarwrapper a {
@@ -229,26 +255,29 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     margin: 0;
-    padding: 0.7em 0 0.3em 0;
+    padding: 0.7em 0 0.5em;
+    font-size: 2.5em;
     line-height: 1.2em;
     color: #222;
 }
 
 h2 {
-    margin: 1.6em 0 0.2em 0;
-    padding: 0 0 10px 0;
+    margin: 1.3em 0 0.5em;
+    padding: 0.5em 0;
+    font-size: 1.75em;
     color: #222;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
 }
 
 h3 {
-    margin: 1.5em 0 -0.3em 0;
-    padding-bottom: 5px;
+    margin: 1.5em 0 0.3em;
+    padding: 0.6em 0 0.3em;
 }
 
 h3, h4, h5, h6 {
     color: #222;
-	border-bottom: 1px dotted #eee;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
 }
 
 div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
@@ -286,13 +315,21 @@ a.headerlink:hover {
     color: white!important;
 }
 
+div.body img {
+    max-width: 100%;
+}
+
+div.body img.align-center {
+    margin: 1em 0 1.7em;
+}
+
 
 pre, cite, code, tt {
     font-family: Monaco, Menlo, Consolas, "Ubuntu Mono", "Droid Sans Mono", Inconsolata, "Courier New", monospace;
 }
 
 cite, code, tt {
-	font-size: 0.9em;
+    font-size: 0.9em;
     letter-spacing: 0.01em;
     background-color: #eeeff2;
     font-style: normal;
@@ -311,15 +348,15 @@ hr {
 
 pre {
     font-style: normal;
-	font-size: 0.9em;
+    font-size: 0.9em;
     letter-spacing: 0.015em;
     line-height: 120%;
     padding: 0.7em;
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	white-space: -pre-wrap;      /* Opera 4-6 */
-	white-space: -o-pre-wrap;    /* Opera 7 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 pre a {
