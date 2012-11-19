@@ -44,7 +44,7 @@ partitioned to profiles based on this field, which depends on the data source.
 Bitdeli can pull data from supported 3rd party services on regular intervals. The
 pull data sources are specified in the user's `account settings </settings/data>`_.
 
-Bitdeli also provides a :ref:`push-api` that allows events to be sent directly to
+Bitdeli also provides an :ref:`events-api` that allows events to be sent directly to
 Bitdeli over HTTPS.
 
 Regardless of the source, the raw events are stored in

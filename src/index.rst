@@ -28,8 +28,12 @@ Getting Started
 API Reference
 -------------
 
+.. toctree::
+   :maxdepth: 1
+
+   events-api
+
 - python modules: chain vs. non-chain
-- push api
 - profile scripts
 
 Support
