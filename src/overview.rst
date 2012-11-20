@@ -67,7 +67,7 @@ The profile script is specific to a data source, as it needs to be able to inter
 the contents of raw events. Correspondingly, a card script depends on a specific profile script.
 These dependencies are specified in the scripts' configuration at ``bitdeli/config.json``.
 
-All available profile scripts are documented in detail in :ref:`profile-scripts`. Note
+All available profile scripts are documented in detail in :ref:`data-sources`. Note
 that although currently you can't define custom profile scripts, we are very open to
 suggestions and pull requests. The Git repositories for profile scripts are
 prefixed with `profile-` at our `GitHub page <https://github.com/bitdeli>`_.
@@ -86,7 +86,7 @@ The *UID* also identifies the profile corresponding to the user.
 
 A profile is a `JSON <http://json.org>`_ object. The exact structure (schema) of the object depends
 on the data source and the profile script linked to the card. The available profile
-schemas are documented in :ref:`profile-scripts`.
+schemas are documented in :ref:`data-sources`.
 
 Note that a profile may contain fields whose name start with a non-alphanumeric character such as
 `_` or `$`. These fields contain metadata about the profile which is used by Bitdeli internally.
@@ -102,7 +102,7 @@ The card script is where the magic happens. A card script is a standard, unrestr
 program which you can create either from scratch or based on one of our templates using our
 :ref:`editor`.
 
-The card script accesses the profiles through the :ref:`bitdeli-py` Python module. It can
+The card script accesses the profiles through the :ref:`python-api`. It can
 aggregate, filter or process the profiles in any way - most typically it computes various
 statistics from the current profiles. When paired with suitable profiles, the card script
 can be used for any analytics task from segmentation, cohort analysis, and funnels to churn
@@ -110,7 +110,7 @@ prediction or even ad targeting.
 
 The card script outputs its results as a combination of a dashboard and a textual
 summary. Bitdeli provides a growing set of **widgets** that the script can use to compose the
-dashboard. For details, see :ref:`bitdeli-widgets`.
+dashboard. For details, see :mod:`bitdeli.widgets`.
 
 The card script is automatically executed every time the profiles change, so the card reflects
 changes in the data in real-time.

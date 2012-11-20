@@ -1,0 +1,2 @@
+.. automodule:: bitdeli.textutil
+   :members:

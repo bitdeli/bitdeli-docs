@@ -32,9 +32,8 @@ API Reference
    :maxdepth: 1
 
    events-api
-
-- python modules: chain vs. non-chain
-- profile scripts
+   python-api
+   datasources
 
 Support
 -------

@@ -20,7 +20,7 @@ How it Works
    :scale: 80%
    :align: center
 
-1. The **card script** can contain any Python code. The interface to inputs and outputs is provided by  the :ref:`bitdeli-py` module.
+1. The **card script** can contain any Python code. The interface to inputs and outputs is provided by the :ref:`python-api`.
 
 2. The input for the card script are the :ref:`profiles`. You can view them by clicking the **Profiles tab**.
 
@@ -28,11 +28,11 @@ How it Works
 
 4. If something went wrong with the draft run, you would see an error message in the **Console tab**. Also messages written to the standard output, like ``print "hello world"``, appear in the console.
 
-5. The script produces a dashboard that is shown in the **Preview tab**. The dashboard is made of :ref:`bitdeli-widgets`, such as text fields and a bar chart above. In addition, the script may generate **a title and a description** for the card based on the profiles. Note that you can click a **widget** to highlight the line that produced it.
+5. The script produces a dashboard that is shown in the **Preview tab**. The dashboard is made of :mod:`bitdeli.widgets`, such as text fields and a bar chart above. In addition, the script may generate **a title and a description** for the card based on the profiles. Note that you can click a **widget** to highlight the line that produced it.
 
 6. Any changes in the code are saved automatically, so you can freely exit the editor and continue editing the code later. However, changes are not applied to the card until you click **Commit**. You can discard changes and return to the previous committed version by clicking the **Reset** icon. Only after you have committed the changes the code is run for all the profiles.
 
-7. The editor is tightly integrated to GitHub, which enables many advanced use cases from local editing to sharing and collaboration. The integration is managed on the **GitHub bar**. For more information, see :ref:`github`.
+7. The editor is tightly integrated to GitHub, which enables many advanced use cases from local editing to sharing and collaboration. The integration is managed on the **GitHub bar**. For more information, see :ref:`githubb`.
 
 .. _sampling:
 

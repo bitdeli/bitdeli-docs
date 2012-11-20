@@ -1,5 +1,5 @@
 
-.. _github:
+.. _githubb:
 
 GitHub Integration
 ==================
@@ -57,7 +57,7 @@ The repository must contain a configuration file at `bitdeli/config.json`. The f
 JSON object with the following fields:
 
 - `section` that describes the :ref:`section <sections>` where this card belongs to. The valid values are `what` (news), `why` (insights) and `how` (goals).
-- `profile` that links the script to a valid :ref:`profile-script`. For possible values, see :ref:`profile-scripts`.
+- `profile` that links the script to a valid :ref:`profile-script`. For possible values, see :ref:`data-sources`.
 
 bitdeli/preview.png
 '''''''''''''''''''
