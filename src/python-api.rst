@@ -17,7 +17,7 @@ The Bitdeli Python API provides access to inputs (:ref:`profiles`) and outputs (
 Input
 -----
 
-Two flavors of the input API are provided: *classic* and *chained*.
+The input API comes in two flavors: *classic* and *chained*.
 
 - The *classic* flavor is provided by the :mod:`bitdeli` module. It is best suited for building simple dashboards.
 
