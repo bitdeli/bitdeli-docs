@@ -13,7 +13,7 @@ Bitdeli is based on a simple conceptual model: Each **card** is backed by a big 
 that stores data about the users of your service. All data related to a user is stored in a single
 row in the database, which is called **a profile**.
 
-The **card script** is where the actual analytics is perfomed. The script scans through all the user
+The **card script** is where the actual analytics is performed. The script scans through all the user
 profiles in the database. It can aggregate, filter or process the profiles in any way you like
 but it can't write to the profile database. The script outputs a textual summary and a visualization of
 the results as a set of **widgets**.
@@ -81,7 +81,7 @@ Bitdeli focuses on people analytics. The people in question are typically users 
 mobile or web application who produce events in the course of using the application.
 Events produced by a user are condensed to a user **profile** by the profile script.
 
-The user is identified by a unique user identifier, *UID*, that is specied in each input event.
+The user is identified by a unique user identifier, *UID*, that is specified in each input event.
 The *UID* also identifies the profile corresponding to the user.
 
 A profile is a `JSON <http://json.org>`_ object. The exact structure (schema) of the object depends
