@@ -1,11 +1,20 @@
 #!/bin/bash
 set -e
 
-if [[ -e bitdeli-py ]]; then
-    echo "Updating bitdeli-py"
-    (cd bitdeli-py; git pull)
-else
-    git clone git://github.com/bitdeli/bitdeli-py
-fi
+getgit()
+{
+    if [[ -e repos/$1 ]]; then
+        echo "Updating $1"
+        (cd repos/$1; git pull)
+    else
+        (cd repos; git clone git://github.com/bitdeli/$1)
+    fi
+}
+
+mkdir -p repos
+getgit "bitdeli-py"
+getgit "profile-mixpanel-hourly"
+getgit "profile-toy-data"
+getgit "profile-github-commits"
 
 sphinx-build src html
