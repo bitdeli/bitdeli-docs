@@ -12,8 +12,8 @@ Introduction
 .. toctree::
    :maxdepth: 1
 
-   why-bitdeli
    what-is-bitdeli
+   why-bitdeli
 
 Getting Started
 ---------------
