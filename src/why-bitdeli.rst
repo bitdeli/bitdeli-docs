@@ -1,8 +1,8 @@
 
 .. _why-bitdeli:
 
-Why Bitdeli
-===========
+Why Bitdeli?
+============
 
 Traditionally a company aspiring to improve their analytics has faced a difficult question: Whether to build or not to build an analytics solution in-house.
 

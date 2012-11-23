@@ -1,8 +1,8 @@
 .. include:: <isonum.txt>
 .. _what-is-bitdeli:
 
-What is Bitdeli
-===============
+What is Bitdeli?
+================
 
 Bitdeli is like Build Your Own Sandwich for analytics: You can mix, match and customize a perfect dish of metrics for your taste.
 

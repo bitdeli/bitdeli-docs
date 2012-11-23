@@ -33,3 +33,9 @@ A :ref:`card-script` outputs a dashboard, composed of *widgets*, and a textual s
 - Widgets are documented in :mod:`bitdeli.widgets`.
 - Some utility functions for producing textual summaries can be found in :mod:`bitdeli.textutil`.
 
+Utilities
+---------
+
+- Many profiles use an efficient data structure called :mod:`bitdeli.lazylist`.
+
+

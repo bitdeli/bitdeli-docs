@@ -21,7 +21,7 @@ os.environ['TESTING'] = '1'
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../ext'))
-sys.path.insert(0, os.path.abspath('../bitdeli-py'))
+sys.path.insert(0, os.path.abspath('../repos/bitdeli-py'))
 
 # -- General configuration -----------------------------------------------------
 

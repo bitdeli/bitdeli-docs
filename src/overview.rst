@@ -1,5 +1,3 @@
-.. |trade|  unicode:: U+02122
-   :trim:
 
 .. _overview:
 
@@ -13,7 +11,7 @@ Bitdeli is based on a simple conceptual model: Each **card** is backed by a big 
 that stores data about the users of your service. All data related to a user is stored in a single
 row in the database, which is called **a profile**.
 
-The **card script** is where the actual analytics is perfomed. The script scans through all the user
+The **card script** is where the actual analytics is performed. The script scans through all the user
 profiles in the database. It can aggregate, filter or process the profiles in any way you like
 but it can't write to the profile database. The script outputs a textual summary and a visualization of
 the results as a set of **widgets**.
@@ -81,7 +79,7 @@ Bitdeli focuses on people analytics. The people in question are typically users 
 mobile or web application who produce events in the course of using the application.
 Events produced by a user are condensed to a user **profile** by the profile script.
 
-The user is identified by a unique user identifier, *UID*, that is specied in each input event.
+The user is identified by a unique user identifier, *UID*, that is specified in each input event.
 The *UID* also identifies the profile corresponding to the user.
 
 A profile is a `JSON <http://json.org>`_ object. The exact structure (schema) of the object depends
@@ -115,30 +113,8 @@ dashboard. For details, see :mod:`bitdeli.widgets`.
 The card script is automatically executed every time the profiles change, so the card reflects
 changes in the data in real-time.
 
-Background
-----------
-
-Bitdeli is designed to maximize developer productivity - and to make sure that anyone can easily become a Bitdeli developer.
-
-The guiding principles behind the design of Bitdeli are based on over ten years of practical experience on building and using analytics platforms. They are summarized below.
-
-The Zen of Bitdeli
-''''''''''''''''''
-
-1. When you need to Get Stuff Done Fast |trade|, nothing beats a popular,
-   general-purpose programming language like `Python <http://python.org>`_.
-
-2. Simple ad-hoc scripts suck for data processing but every other system sucks worse. Every
-   minute spent to learn `NoSQL <en.wikipedia.org/wiki/NoSQL>`_, `MapReduce <en.wikipedia.org/wiki/MapReduce>`_ or any other new paradigm is a minute less spent on building actual analytics.
-
-3. Everybody should be able to get their hands dirty with data - it shouldn't require black magic. The domain experts are rarely experts in scalable data processing.
-
-4. Make it easy to experiment with data. Every answer raises new questions.
-
-5. Never throw away raw data. Make it easy to return to the ground truth.
-
 Backend
-'''''''
+-------
 
 Bitdeli is powered by a custom stream processing backend that is specifically designed for
 flexible user-centric analytics. The central design principle was to support

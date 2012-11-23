@@ -1,6 +1,7 @@
+*.swp
 *.pyc
 
 .DS_Store
 
 html
-bitdeli-py
+repos
