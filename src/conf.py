@@ -101,7 +101,11 @@ html_theme = 'solar'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'google_analytics_id': 'UA-26067752-1',
+    'google_analytics_domain': 'bitdeli.com',
+    'mixpanel_id': '567215920088e776cce6d7c00cbd58dc',
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['../themes']
