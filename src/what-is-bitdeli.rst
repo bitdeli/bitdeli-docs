@@ -21,11 +21,11 @@ How Bitdeli works
 
 Bitdeli organizes analytics around the concept of **a card**. A card can show where your business is going or what your users are doing - anything based on your data.
 
-A card is a small analytics machine: It ingests real-time data from one of the connected data sources, processes it based on **a card script** written in Python and outputs a dashboard and a snippet of text. You can hang a card on the wall and use it as a traditional dashboard. Alternatively you can focus on the text and use it as an automatically updating mini-report.
+A card is a small analytics machine: It ingests real-time data from one of the connected data sources, processes it based on a :ref:`card-script` written in Python and outputs a dashboard and a snippet of text. You can hang a card on the wall and use it as a traditional dashboard. Alternatively you can focus on the text and use it as an automatically updating mini-report.
 
 Since each card is powered by a full-fledged Python script, they can perform arbitrarily sophisticated analytics: Anything from simple averages to state-of-the-art machine learning. The good news is that you don't need to be a data scientist to be able to use them. You can start using a card just by clicking **Add card** and choosing a card that seems interesting.
 
-If the newly added card doesn't quite fit to your needs, or you don't like the colors, click **Edit**. This opens the in-browser **Card Editor** that allows you to customize and test the card with your actual data. Using the editor doesn't require any special expertise besides the basics of Python.
+If the newly added card doesn't quite fit to your needs, or you don't like the colors, click **Edit**. This opens the in-browser :ref:`editor` that allows you to customize and test the card with your actual data. Using the editor doesn't require any special expertise besides the basics of Python.
 
 .. _sections:
 
