@@ -212,11 +212,12 @@ div.body div.section {
     max-width: 750px;
 }
 
-p, div.body ul li, div.body ol li {
+p, div.body ul li, div.body ol li,
+div.body dl dt, div.body dl dd {
     margin: 0.5em 0 0.8em;
 }
 
-div.body ul, div.body ol {
+div.body ul, div.body ol, div.body dl dd {
     padding-left: 30px;
 }
 
