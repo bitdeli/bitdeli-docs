@@ -226,11 +226,13 @@ div.body ul {
 }
 
 div.body ul li {
-    text-indent: -0.8em;
+    position: relative;
 }
 
 div.body ul li:before {
-    content: "\2022\a0\a0 ";
+    content: "\2022";
+    position: absolute;
+    left: -15px;
     color: #777;
 }
 
