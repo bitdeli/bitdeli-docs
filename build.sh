@@ -16,6 +16,7 @@ getgit "bitdeli-py"
 getgit "profile-mixpanel-hourly"
 getgit "profile-toy-data"
 getgit "profile-github-commits"
+getgit "profile-ghbadge"
 getgit "profile-events-raw"
 
 sphinx-build src html

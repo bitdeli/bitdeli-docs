@@ -16,5 +16,6 @@ The currently available data sources are documented below.
 
 .. include:: ../repos/profile-events-raw/README.rst
 .. include:: ../repos/profile-mixpanel-hourly/README.rst
+.. include:: ../repos/profile-ghbadge/README.rst
 .. include:: ../repos/profile-github-commits/README.rst
 .. include:: ../repos/profile-toy-data/README.rst

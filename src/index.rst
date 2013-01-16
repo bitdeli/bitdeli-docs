@@ -23,8 +23,9 @@ Getting Started
 
    overview
    editor
-   github
    datasources
+   github
+   badge
 
 API Reference
 -------------
