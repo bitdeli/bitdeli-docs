@@ -1,5 +1,5 @@
-Bitdeli Documention
-===================
+Bitdeli Documentation
+=====================
 
 Live at https://beta.bitdeli.com/docs/
 
