@@ -34,6 +34,7 @@ API Reference
    :maxdepth: 1
 
    python-api
+   javascript-api
    events-api
 
 Support

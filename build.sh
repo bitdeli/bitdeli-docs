@@ -13,6 +13,7 @@ getgit()
 
 mkdir -p repos
 getgit "bitdeli-py"
+getgit "bitdeli-tracking-js"
 getgit "profile-mixpanel-hourly"
 getgit "profile-toy-data"
 getgit "profile-github-commits"
