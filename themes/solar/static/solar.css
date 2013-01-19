@@ -463,3 +463,11 @@ div.viewcode-block:target {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
+
+dl.class, dl.function, dl.data {
+    margin: 1.5em 0 3em;
+}
+
+table.docutils td.field-body ul li {
+    margin: 0 0 1em;
+}
