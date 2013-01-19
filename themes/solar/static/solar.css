@@ -69,7 +69,7 @@ body {
     min-width: 740px;
     max-width: 1170px;
     background-color: #fcfcfc;
-    background-image: url("https://beta.bitdeli.com/assets/img/subtle_dot_@2X.png");
+    background-image: url("https://bitdeli.com/assets/img/subtle_dot_@2X.png");
     background-repeat: repeat;
     background-size: 3px 3px;
     background-position: 2px 2px;
@@ -109,7 +109,7 @@ div.related a.logo {
     height: 27px;
     width: 65px;
     text-indent: -9999em;
-    background-image: url("https://beta.bitdeli.com/assets/img/bitdeli_header_logo_white.png");
+    background-image: url("https://bitdeli.com/assets/img/bitdeli_header_logo_white.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 65px;
