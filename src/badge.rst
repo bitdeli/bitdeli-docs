@@ -4,12 +4,10 @@
 Bitdeli Badge for GitHub
 ========================
 
-.. image:: images/free_landing_badge@2X.png
-   :scale: 40%
+.. image:: images/trending_badge3.png
    :align: center
 
-
-You can get started with Bitdeli for free by adding our badge to the readme file of at least one of your GitHub repositories. For instance, you can see `a badge live in this repository <https://github.com/bitdeli/bitdeli-docs>`_.
+You can get started with Bitdeli for free by adding the Bitdeli badge to the readme file of at least one of your GitHub repositories. For instance, you can see `the badge live in this repository <https://github.com/bitdeli/bitdeli-docs>`_.
 
 Every time someone views the repository the badge is loaded from the lightning fast Amazon Content Distribution Network, which produces an event in the access log. This benefits you in two ways: First, the badge itself shows when the repository starts growing more popular, as described in the next section. Second, you can analyze the events by yourself in Bitdeli.
 
