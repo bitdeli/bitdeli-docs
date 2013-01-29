@@ -19,5 +19,6 @@ getgit "profile-toy-data"
 getgit "profile-github-commits"
 getgit "profile-ghbadge"
 getgit "profile-events-raw"
+getgit "profile-jsapi"
 
 sphinx-build src html
