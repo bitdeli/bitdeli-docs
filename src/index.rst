@@ -25,6 +25,14 @@ Getting Started
    editor
    datasources
    github
+
+Data Sources
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   javascript-library
    badge
 
 API Reference
